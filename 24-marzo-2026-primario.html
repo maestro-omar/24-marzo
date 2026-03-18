@@ -29,6 +29,7 @@
     <meta name="twitter:image" content="https://maestro-omar.github.io/24-marzo/statics/24-marzo/24-marzo-compartir.png" />
 
     <link rel="stylesheet" href="statics/24-marzo/24-marzo-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 </head>
 
@@ -393,6 +394,14 @@
     </main>
 
     <div class="pre-footer">
+        <div class="share-bar" id="shareBar">
+            <span>Compartir:</span>
+            <a href="#" class="share-whatsapp" data-share="whatsapp" title="Compartir en WhatsApp" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="share-twitter" data-share="twitter" title="Compartir en X" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" class="share-facebook" data-share="facebook" title="Compartir en Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="share-email" data-share="email" title="Compartir por email"><i class="fas fa-envelope"></i></a>
+            <button type="button" class="share-instagram" data-share="instagram" title="Copiar enlace para compartir en Instagram"><i class="fab fa-instagram"></i></button>
+        </div>
         <p>24 de marzo – Día Nacional de la Memoria por la Verdad y la Justicia</p>
     </div>
 
@@ -400,14 +409,7 @@
         <p class="footer-locality">San Luis, Argentina</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-    <script>
-        GLightbox({
-            selector: '.glightbox',
-            touchNavigation: true,
-            loop: true,
-            closeButton: true
-        });
-    </script>
+    <script src="statics/24-marzo/24-marzo.js"></script>
 </body>
 
 </html>
