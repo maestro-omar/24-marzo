@@ -459,3 +459,8 @@ footer {
 .share-bar i {
     font-size: 1.2rem;
 }
+
+.share-bar .download-printable {
+    margin-left: 16px;
+}
+
